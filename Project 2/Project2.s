@@ -9,9 +9,9 @@ output_message:
 newline:
 	.ascii "\n"
 .section .text	
-.globl main
+.globl _start
 
-main:
+_start:
 	mov $1, %rax 			# syscall number 1 (sys_write)
 	mov $1, %rdi			# file descriptor 1 (stdout)
 	lea input_message(%rip), %rsi	# pointer to input_message
