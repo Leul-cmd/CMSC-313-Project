@@ -18,6 +18,6 @@ How to Run:
 
 Example:
 
-Please enter a number: 7
+Please enter the number: 7
 
 The double is: 14
