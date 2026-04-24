@@ -46,7 +46,7 @@ _start:
 	cmp $0, %rax			# check if number is not equal to 0
 	jne .convert_back		# convert back if not equal to zero  
 	dec %rdi
-	mov $'0', (%rdi)		# handle zero case
+	movb $'0', (%rdi)		# handle zero case
 	jmp .print			
 
 .convert_back:
