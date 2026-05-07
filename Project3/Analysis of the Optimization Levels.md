@@ -1,7 +1,4 @@
-The -O0 optimization level performs no optimization. It produces the largest and least efficient assembly code. The compiler allocates a large amount of 
-memory on the stack. The stack frame contains a large memory allocation through 
-the instruction subq $104, %rsp. This results in 104 bytes being allocated on 
-the stack. All local variables are stored on the stack rather than in 
+The -O0 optimization level performs no optimization. It produces the largest and least efficient assembly code. The compiler allocates a large amount of memory on the stack. The stack frame contains a large memory allocation through the instruction subq $104, %rsp. This results in 104 bytes being allocated on the stack. All local variables are stored on the stack rather than in 
 registers, leading to more memory load and store operations. For example, 
 
 
