@@ -1,7 +1,6 @@
 Project 3 - C-Language, ASM and Optimization
 
 
-
 Program Name - hexdump.c
 
 
@@ -9,12 +8,10 @@ Program Description - This program outputs a hex dump of the input file. The for
 
 
 How to Generate the Executable:
-
 gcc hexdump.c -o hexdump
 
 
 How to Run the Program:
-
 ./hexdump binary.out
 
 
@@ -32,15 +29,10 @@ File Description - This file analyzes the impact of different optimization level
 
 
 How to Assemble with -O0 optimization level:
-
 gcc -S -O0 hexdump.c -o hexdump0.s
 
-
 How to Assemble with -O1 optimization level:
-
 gcc -S -O1 hexdump.c -o hexdump1.s
 
-
 How to Assemble with -O3 optimization level:
-
 gcc -S -O3 hexdump.c -o hexdump3.s
