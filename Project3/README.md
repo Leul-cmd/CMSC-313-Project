@@ -36,12 +36,12 @@ File Description - This file analyzes the impact of different optimization level
 
 How to Assemble with -O0 optimization level:
 
-gcc -S -O0 hexdump.c -o hexdump0.s
+gcc -S -O0 hexdump.c -o hexdump_O0.s
 
 How to Assemble with -O1 optimization level:
 
-gcc -S -O1 hexdump.c -o hexdump1.s
+gcc -S -O1 hexdump.c -o hexdump_O1.s
 
 How to Assemble with -O3 optimization level:
 
-gcc -S -O3 hexdump.c -o hexdump3.s
+gcc -S -O3 hexdump.c -o hexdump_O3.s
